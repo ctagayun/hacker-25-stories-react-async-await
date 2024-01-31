@@ -336,7 +336,7 @@ const App = () => {
   }, [url]);
        const myDependencyArray = JSON.stringify(url);
        console.log("dependency array SearchTerm value = " + myDependencyArray);
-        //EOF //E - every time searchTerm dependency array (E) changes 
+        //EOF //E - every time 'url' dependency array (E) changes 
                     //useCallback Hook creates a memoized function. As a
                     //result React.useEffect runs again (C) because it depends 
                     //on the new function (D)
