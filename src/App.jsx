@@ -9,7 +9,7 @@
        with the async/await syntax. 
      
      - refactor of the handleFetchStories() function shows how to 
-       accomplish it without error handling: (X1)
+       accomplish it with  error handling: (X1)
  
    Previous Task: Use Third Party Library - Axios 
      Not all browser supports "fetch". 
